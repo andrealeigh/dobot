@@ -8,26 +8,36 @@
 h1 {
   font-family: 'quatro_slabregular';
   font-size: 36pt;
+  color: #FFFFFF;
 }
 
 small {
   font-family: 'lft_etica_bkbook';
   font-size: 16pt;
+  color: #555A5B;
 }
 
 p {
   font-family: 'lft_eticaregular';
   font-size: 16pt;
+  color: #ACADAD;
 }
+
+p:nth-of-type(3) {
+  color: #01BFC1;
+}
+
 
 p:last-of-type {
   font-family: 'quatro_slabregular';
   font-size: 24pt;
+  color: #FFFFFF;
 }
 
 .col__button-buythis {
   font-family: 'lft_etica_sbsemibold';
   font-size: 14pt;
+  color: #FFFFFF;
 }
 
 /*  GROUPING  */
@@ -40,12 +50,12 @@ p:last-of-type {
   display: block;
   float: left;
   margin: 1% 0 1% 1.6%;
-  background-color: blue;
+  background-color: #1A2325;
   width: 49.2%;
 }
 .section__col:first-child {
   margin-left: 0;
-  background-color: red;
+  background-color: #1A2325;
 }
 
 /* MOBILE VIEW: WIDTH AT LESS THAN 480 PIXELS */
