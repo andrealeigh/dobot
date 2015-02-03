@@ -35,8 +35,9 @@ p {
 
 p:nth-of-type(3) {
   color: #01BFC1;
+  border-bottom: 1px dotted #555A5B;
+  padding-bottom: 1em;
 }
-
 
 p:last-of-type {
   font-family: 'quatro_slabregular';
