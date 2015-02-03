@@ -67,12 +67,13 @@ p:last-of-type {
   display: block;
   float: left;
   margin: 10% 0 10% 1.6%;
-  width: 59.2%;
+  width: 55.2%;
 }
 
 .section__col:first-child {
   margin-left: 0;
-  width: 39.2%;
+  padding-right: 6%;
+  width: 35.2%;
 }
 
 /* MOBILE VIEW: WIDTH AT LESS THAN 480 PIXELS */
