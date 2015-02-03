@@ -1,0 +1,33 @@
+/*  SECTIONS  */
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.section__col {
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1.6%;
+  background-color: blue;
+  width: 49.2%;
+}
+.section__col:first-child {
+  margin-left: 0;
+  background-color: red;
+}
+
+/*  GROUPING  */
+.section:before,
+.section:after { content: ""; display: table; }
+.section:after { clear: both;}
+
+/* MOBILE VIEW: WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+  .section__col {
+    margin: 1% 0 1% 0%;
+    width: 100%;
+  }
+}
