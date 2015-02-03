@@ -5,6 +5,31 @@
   margin: 0px;
 }
 
+h1 {
+  font-family: 'quatro_slabregular';
+  font-size: 36pt;
+}
+
+small {
+  font-family: 'lft_etica_bkbook';
+  font-size: 16pt;
+}
+
+p {
+  font-family: 'lft_eticaregular';
+  font-size: 16pt;
+}
+
+p:last-of-type {
+  font-family: 'quatro_slabregular';
+  font-size: 24pt;
+}
+
+.col__button-buythis {
+  font-family: 'lft_etica_sbsemibold';
+  font-size: 14pt;
+}
+
 /*  GROUPING  */
 .section:before,
 .section:after { content: ""; display: table; }
