@@ -5,6 +5,11 @@
   margin: 0px;
 }
 
+/*  GROUPING  */
+.section:before,
+.section:after { content: ""; display: table; }
+.section:after { clear: both;}
+
 /*  COLUMN SETUP  */
 .section__col {
   display: block;
@@ -17,11 +22,6 @@
   margin-left: 0;
   background-color: red;
 }
-
-/*  GROUPING  */
-.section:before,
-.section:after { content: ""; display: table; }
-.section:after { clear: both;}
 
 /* MOBILE VIEW: WIDTH AT LESS THAN 480 PIXELS */
 
