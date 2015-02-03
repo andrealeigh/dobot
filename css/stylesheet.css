@@ -1,8 +1,17 @@
+body {
+  background-color: #1A2325;
+}
+
 /*  SECTIONS  */
 .section {
   clear: both;
   padding: 0;
   margin: 0 6%;
+  border-bottom: 1px solid #555A5B;
+}
+
+.section:last-of-type {
+  border-bottom: none;
 }
 
 h1 {
@@ -49,13 +58,11 @@ p:last-of-type {
 .section__col {
   display: block;
   float: left;
-  background-color: #1A2325;
   margin: 10% 0 10% 1.6%;
   width: 49.2%;
 }
 .section__col:first-child {
   margin-left: 0;
-  background-color: #1A2325;
 }
 
 /* MOBILE VIEW: WIDTH AT LESS THAN 480 PIXELS */
