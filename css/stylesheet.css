@@ -63,6 +63,11 @@ p:last-of-type {
   margin: 4.5% 5% 2.5% 0;
 }
 
+.col__arrowimage {
+  width: 22.64pt;
+  vertical-align: middle;
+}
+
 .col__button-buythis {
   float: left;
   margin-top: 3%;
