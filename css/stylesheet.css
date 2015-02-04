@@ -2,6 +2,7 @@ body {
   background-color: #1A2325;
 }
 
+/* ICON STYLING */
 .brand-border {
   width: 100%;
   height: .5em;
@@ -19,7 +20,7 @@ body {
   margin: -.5% 0 0 6%;
 }
 
-/*  SECTIONS  */
+/*  SECTIONS AND GROUPING */
 .section {
   clear: both;
   padding: 0;
@@ -31,12 +32,11 @@ body {
   border-bottom: none;
 }
 
-/*  GROUPING  */
 .section:before,
 .section:after { content: ""; display: table; }
 .section:after { clear: both;}
 
-/*  GRID SETUP  */
+/*  COLUMN SETUP WITHIN SECTIONS  */
 .section__col {
   display: block;
   float: left;
