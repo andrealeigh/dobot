@@ -36,7 +36,7 @@ body {
 /* TABLET AND MOBILE VIEW: WIDTH AT LESS THAN 780 PIXELS */
 @media only screen and (max-width: 780px) {
   .section__col, .section__col:first-child {
-    margin: 1% 0 1% 0%;
+    margin: 10% 0 10% 0%;
     width: 100%;
   }
 }
