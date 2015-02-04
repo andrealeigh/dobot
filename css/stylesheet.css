@@ -45,6 +45,10 @@ small {
   color: #555A5B;
 }
 
+.col__mobile_img {
+  display: none;
+}
+
 p {
   font-family: 'lft_eticaregular';
   color: #ACADAD;
@@ -85,6 +89,15 @@ p:last-of-type {
   .section__col, .section__col:first-child {
     margin: 10% 0 10% 0%;
     width: 100%;
+  }
+
+  .section__col--desktop_image {
+    display: none;
+  }
+
+  .col__mobile_img {
+    display: block;
+    padding-top: 1em;
   }
 
   p:last-of-type {
