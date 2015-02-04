@@ -99,6 +99,12 @@ p:last-of-type {
   color: #FFFFFF;
   font-size: .6em;
   text-align: center;
+.col__button-buythis:hover {
+  background-color: #CFCEBA;
+  border: 1px solid #1BBCBF;
+  box-shadow: 0px 1px #1BBCBF;
+
+
 }
 
 /* TABLET AND MOBILE STYLING */
