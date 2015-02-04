@@ -81,7 +81,7 @@ p:last-of-type {
   font-family: 'quatro_slabregular';
   color: #FFFFFF;
   float: left;
-  margin: 4.5% 5% 2.5% 0;
+  margin-right: 1em;
 }
 
 .col__arrowimage {
@@ -91,8 +91,8 @@ p:last-of-type {
 
 .col__button-buythis {
   float: left;
-  margin-top: 3%;
-  padding: 3% 1.9% 3% 1.9%;
+  margin-top: 1em;
+  padding: 1em 0;
   width: 8em;
   background-color: #1BBCBF;
   font-family: 'lft_etica_sbsemibold';
@@ -118,11 +118,4 @@ p:last-of-type {
     padding-top: 1em;
   }
 
-  p:last-of-type {
-    margin: 4% 2.5% 2.5% 0;
-  }
-
-  .col__button-buythis {
-    padding: 1.9%;
-  }
 }
