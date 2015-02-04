@@ -45,20 +45,17 @@ body {
 /* LEFT COLUMN STYLING */
 h1 {
   font-family: 'quatro_slabregular';
-  font-size: 36pt;
   color: #FFFFFF;
   margin: 0 0 1% 0;
 }
 
 small {
   font-family: 'lft_etica_bkbook';
-  font-size: 16pt;
   color: #555A5B;
 }
 
 p {
   font-family: 'lft_eticaregular';
-  font-size: 16pt;
   color: #ACADAD;
 }
 
@@ -70,7 +67,6 @@ p:nth-of-type(3) {
 
 p:last-of-type {
   font-family: 'quatro_slabregular';
-  font-size: 24pt;
   color: #FFFFFF;
   float: left;
   margin: 0;
@@ -82,6 +78,5 @@ p:last-of-type {
   height: 50px;
   background-color: #1BBCBF;
   font-family: 'lft_etica_sbsemibold';
-  font-size: 14pt;
   color: #FFFFFF;
 }
