@@ -111,7 +111,7 @@ p:last-of-type {
 @media only screen and (max-width: 780px) {
 
   .section__col, .section__col:first-child {
-    margin: 20% 0%;
+    margin: 5% 0%;
     width: 100%;
   }
 
@@ -122,6 +122,15 @@ p:last-of-type {
   .section__col__mobile_img {
     display: block;
     padding-top: 1em;
+  }
+
+  p:nth-of-type(3) {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .section__col__button_buy_this {
+    margin-top: .5em;
   }
 
 }
