@@ -1,18 +1,7 @@
 body {
   background-color: #1A2325;
-}
-
-/* ICON STYLING */
-.brand-border {
-  background-color: #F8695A;
-  height: .5em;
-  margin: -.8em 0 0 -.5em;
-  padding-right: 5em;
-  width: 100%;
-}
-
-.brand-border__dobot {
-  display: none;
+  border-top: .4em solid #F8695A;
+  margin-top: -.1em;
 }
 
 .dobot-icon {
