@@ -71,13 +71,17 @@ p {
   font-family: 'lft_eticaregular';
 }
 
-p:nth-of-type(3) {
-  color: #01BFC1;
+a {
   border-bottom: 1px dotted #555A5B;
+  color: #01BFC1;
+  float: left;
+  font-family: 'lft_eticaregular';
   padding-bottom: 1em;
+  text-decoration: none;
 }
 
 p:last-of-type {
+  clear: both;
   color: #FFFFFF;
   float: left;
   font-family: 'quatro_slabregular';
