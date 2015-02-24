@@ -88,11 +88,6 @@ p:last-of-type {
   margin-right: 1em;
 }
 
-.section__col__arrow_image {
-  width: 22.64px;
-  vertical-align: middle;
-}
-
 .section__col__button_buy_this {
   background-color: #1BBCBF;
   border-bottom: none;
