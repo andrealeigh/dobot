@@ -1,18 +1,7 @@
 body {
   background-color: #1A2325;
-}
-
-/* ICON STYLING */
-.brand-border {
-  background-color: #F8695A;
-  height: .5em;
-  margin: -.8em 0 0 -.5em;
-  padding-right: 5em;
-  width: 100%;
-}
-
-.brand-border__dobot {
-  display: none;
+  border-top: .4em solid #F8695A;
+  margin-top: -.1em;
 }
 
 .dobot-icon {
@@ -71,26 +60,26 @@ p {
   font-family: 'lft_eticaregular';
 }
 
-p:nth-of-type(3) {
-  color: #01BFC1;
+a {
   border-bottom: 1px dotted #555A5B;
+  color: #01BFC1;
+  float: left;
+  font-family: 'lft_eticaregular';
   padding-bottom: 1em;
+  text-decoration: none;
 }
 
 p:last-of-type {
+  clear: both;
   color: #FFFFFF;
   float: left;
   font-family: 'quatro_slabregular';
   margin-right: 1em;
 }
 
-.section__col__arrow_image {
-  width: 22.64px;
-  vertical-align: middle;
-}
-
 .section__col__button_buy_this {
   background-color: #1BBCBF;
+  border-bottom: none;
   color: #FFFFFF;
   float: left;
   font-family: 'lft_etica_sbsemibold';
