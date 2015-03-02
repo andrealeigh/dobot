@@ -22,9 +22,11 @@ body {
   border-bottom: none;
 }
 
-.section:before,
-.section:after { content: ""; display: table; }
-.section:after { clear: both; }
+.section:before, .section:after {
+  clear: both;
+  content: "";
+  display: table;
+}
 
 /* COLUMN SETUP WITHIN SECTIONS  */
 .section__col {
