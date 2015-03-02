@@ -61,12 +61,16 @@ p {
 }
 
 a {
-  border-bottom: 1px dotted #555A5B;
   color: #01BFC1;
   float: left;
   font-family: 'lft_eticaregular';
   padding-bottom: 1em;
   text-decoration: none;
+}
+
+hr {
+  border: 1px dotted #555A5B;
+  clear: both;
 }
 
 p:last-of-type {
