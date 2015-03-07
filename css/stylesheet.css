@@ -5,7 +5,8 @@ body {
 }
 
 .dobot-icon {
-  margin: -.5% 0 0 6%;
+  margin-top: -.5%;
+  margin-left: 10%;
   width: 80px;
 }
 
@@ -13,7 +14,7 @@ body {
 .section {
   border-bottom: 1px solid #555A5B;
   clear: both;
-  margin: 0 6%;
+  margin: 0 10%;
   padding: 0;
 }
 
@@ -21,15 +22,18 @@ body {
   border-bottom: none;
 }
 
-.section:before,
-.section:after { content: ""; display: table; }
-.section:after { clear: both; }
+.section:before, .section:after {
+  clear: both;
+  content: "";
+  display: table;
+}
 
 /* COLUMN SETUP WITHIN SECTIONS  */
 .section__col {
   display: block;
   float: left;
   margin: 10% 0 10% 1.6%;
+  max-width: 940px;
   width: 55.2%;
 }
 
@@ -61,12 +65,16 @@ p {
 }
 
 a {
-  border-bottom: 1px dotted #555A5B;
   color: #01BFC1;
   float: left;
   font-family: 'lft_eticaregular';
   padding-bottom: 1em;
   text-decoration: none;
+}
+
+hr {
+  border: 1px dotted #555A5B;
+  clear: both;
 }
 
 p:last-of-type {
@@ -113,13 +121,8 @@ p:last-of-type {
     padding-top: 1em;
   }
 
-  p:nth-of-type(3) {
-    border-bottom: none;
-    padding-bottom: 0;
-  }
-
-  .section__col__button_buy_this {
-    margin-top: .5em;
+  hr {
+    display: none;
   }
 
 }
