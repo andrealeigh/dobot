@@ -6,7 +6,7 @@ body {
 
 .dobot-icon {
   margin-top: -.5%;
-  margin-left: 6%;
+  margin-left: 10%;
   width: 80px;
 }
 
@@ -14,7 +14,7 @@ body {
 .section {
   border-bottom: 1px solid #555A5B;
   clear: both;
-  margin: 0 6%;
+  margin: 0 10%;
   padding: 0;
 }
 
@@ -33,6 +33,7 @@ body {
   display: block;
   float: left;
   margin: 10% 0 10% 1.6%;
+  max-width: 940px;
   width: 55.2%;
 }
 
