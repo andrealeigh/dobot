@@ -32,15 +32,15 @@ body {
 .section__col {
   display: block;
   float: left;
-  margin: 10% 0 10% 1.6%;
+  margin: 10% 0;
   max-width: 940px;
-  width: 55.2%;
+  width: 58%;
 }
 
 .section__col:first-child {
   margin-left: 0;
-  padding-right: 6%;
-  width: 35.2%;
+  padding-right: 9%;
+  width: 33%;
 }
 
 /* LEFT COLUMN STYLING */
