@@ -6,7 +6,7 @@ body {
 
 .dobot-icon {
   margin-top: -.5%;
-  margin-left: 10%;
+  margin-left: 6%;
   width: 80px;
 }
 
@@ -14,7 +14,8 @@ body {
 .section {
   border-bottom: 1px solid #555A5B;
   clear: both;
-  margin: 0 10%;
+  margin: 0 6%;
+  max-width: 1100px;
   padding: 0;
 }
 
@@ -103,6 +104,10 @@ p:last-of-type {
   background-color: #CFCEBA;
   border: 1px solid #1BBCBF;
   box-shadow: 0px 1px #1BBCBF;
+}
+
+.section__col--desktop_image {
+  max-width: 640px;
 }
 
 /* TABLET AND MOBILE STYLING */
