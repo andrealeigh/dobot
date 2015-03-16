@@ -48,12 +48,14 @@ body {
 h1 {
   color: #FFFFFF;
   font-family: 'quatro_slabregular';
+  font-size: 2.25em;
   margin: 0 0 1% 0;
 }
 
 small {
   color: #555A5B;
   font-family: 'lft_etica_bkbook';
+  font-size: 1em;
 }
 
 .section__col__mobile_img {
@@ -63,6 +65,7 @@ small {
 p {
   color: #ACADAD;
   font-family: 'lft_eticaregular';
+  font-size: 1em;
   line-height: 1.5;
 }
 
@@ -70,6 +73,7 @@ a {
   color: #01BFC1;
   float: left;
   font-family: 'lft_eticaregular';
+  font-size: 1em;
   padding-bottom: 1em;
   text-decoration: none;
 }
@@ -84,6 +88,7 @@ p:last-of-type {
   color: #FFFFFF;
   float: left;
   font-family: 'quatro_slabregular';
+  font-size: 1.5em;
   margin-right: 1em;
 }
 
@@ -93,7 +98,7 @@ p:last-of-type {
   color: #FFFFFF;
   float: left;
   font-family: 'lft_etica_sbsemibold';
-  font-size: .6em;
+  font-size: .875em;
   margin-top: 1em;
   padding: 1em 0;
   text-align: center;
