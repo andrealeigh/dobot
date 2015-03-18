@@ -1,20 +1,25 @@
-body {
+html {
   background-color: #1A2325;
-  border-top: .4em solid #F8695A;
-  margin-top: -.1em;
+  border-top: .2em solid #F8695A;
+}
+
+body {
+  display: table;
+  margin: auto;
 }
 
 .dobot-icon {
   margin-top: -.5%;
-  margin-left: 10%;
+  margin-left: 6%;
   width: 80px;
 }
 
 /* SECTIONS AND GROUPING */
 .section {
-  border-bottom: 1px solid #555A5B;
+  border-bottom: 1px solid #323738;
   clear: both;
-  margin: 0 10%;
+  margin: 0 6%;
+  max-width: 1100px;
   padding: 0;
 }
 
@@ -32,27 +37,29 @@ body {
 .section__col {
   display: block;
   float: left;
-  margin: 10% 0 10% 1.6%;
+  margin: 10% 0;
   max-width: 940px;
-  width: 55.2%;
+  width: 58%;
 }
 
 .section__col:first-child {
   margin-left: 0;
-  padding-right: 6%;
-  width: 35.2%;
+  padding-right: 9%;
+  width: 33%;
 }
 
 /* LEFT COLUMN STYLING */
 h1 {
   color: #FFFFFF;
   font-family: 'quatro_slabregular';
+  font-size: 2.25em;
   margin: 0 0 1% 0;
 }
 
 small {
   color: #555A5B;
   font-family: 'lft_etica_bkbook';
+  font-size: 1em;
 }
 
 .section__col__mobile_img {
@@ -62,18 +69,21 @@ small {
 p {
   color: #ACADAD;
   font-family: 'lft_eticaregular';
+  font-size: 1em;
+  line-height: 1.5;
 }
 
 a {
   color: #01BFC1;
   float: left;
   font-family: 'lft_eticaregular';
-  padding-bottom: 1em;
+  font-size: 1em;
+  padding-bottom: 2.188em;
   text-decoration: none;
 }
 
 hr {
-  border: 1px dotted #555A5B;
+  border: 1px dotted #323738;
   clear: both;
 }
 
@@ -82,7 +92,9 @@ p:last-of-type {
   color: #FFFFFF;
   float: left;
   font-family: 'quatro_slabregular';
+  font-size: 1.5em;
   margin-right: 1em;
+  margin-top: 1.5em;
 }
 
 .section__col__button_buy_this {
@@ -91,24 +103,28 @@ p:last-of-type {
   color: #FFFFFF;
   float: left;
   font-family: 'lft_etica_sbsemibold';
-  font-size: .6em;
-  margin-top: 1em;
+  font-size: .875em;
+  margin-top: 2.188em;
   padding: 1em 0;
   text-align: center;
-  width: 8em;
+  width: 8.99em;
 }
 
 .section__col__button_buy_this:hover {
-  background-color: #CFCEBA;
-  border: 1px solid #1BBCBF;
-  box-shadow: 0px 1px #1BBCBF;
+  background-image: url('../images/button_hover.png');
+  background-repeat: repeat;
+}
+
+.section__col--desktop_image {
+  max-width: 640px;
 }
 
 /* TABLET AND MOBILE STYLING */
 @media only screen and (max-width: 780px) {
 
   .section__col, .section__col:first-child {
-    margin: 5% 0%;
+    margin: 5% 0;
+    padding-right: 0;
     width: 100%;
   }
 
@@ -119,6 +135,11 @@ p:last-of-type {
   .section__col__mobile_img {
     display: block;
     padding-top: 1em;
+    width: 100%;
+  }
+
+  a {
+    padding-bottom: 0;
   }
 
   hr {
