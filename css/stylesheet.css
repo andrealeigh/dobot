@@ -123,7 +123,8 @@ p:last-of-type {
 @media only screen and (max-width: 780px) {
 
   .section__col, .section__col:first-child {
-    margin: 5% 0%;
+    margin: 5% 0;
+    padding-right: 0;
     width: 100%;
   }
 
@@ -134,6 +135,7 @@ p:last-of-type {
   .section__col__mobile_img {
     display: block;
     padding-top: 1em;
+    width: 100%;
   }
 
   hr {
