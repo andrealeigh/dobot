@@ -1,7 +1,11 @@
-body {
+html {
   background-color: #1A2325;
   border-top: .3em solid #F8695A;
-  margin-top: -.1em;
+}
+
+body {
+  display: table;
+  margin: auto;
 }
 
 .dobot-icon {
