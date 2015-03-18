@@ -111,9 +111,8 @@ p:last-of-type {
 }
 
 .section__col__button_buy_this:hover {
-  background-color: #CFCEBA;
-  border: 1px solid #1BBCBF;
-  box-shadow: 0px 1px #1BBCBF;
+  background-image: url('../images/button_hover.png');
+  background-repeat: repeat;
 }
 
 .section__col--desktop_image {
