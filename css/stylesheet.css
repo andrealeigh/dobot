@@ -138,6 +138,10 @@ p:last-of-type {
     width: 100%;
   }
 
+  a {
+    padding-bottom: 0;
+  }
+
   hr {
     display: none;
   }
