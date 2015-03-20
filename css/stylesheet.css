@@ -49,14 +49,14 @@ body {
 }
 
 /* LEFT COLUMN STYLING */
-h1 {
+h2 {
   color: #FFFFFF;
   font-family: 'quatro_slabregular';
   font-size: 2.25em;
   margin: 2.5% 0 -2% 0;
 }
 
-small {
+h3 {
   color: #555A5B;
   font-family: 'lft_etica_bkbook';
   font-size: 1em;
