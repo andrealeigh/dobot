@@ -52,7 +52,8 @@ h2 {
   color: #FFFFFF;
   font-family: 'quatro_slabregular';
   font-size: 2.25em;
-  margin: 2.5% 0 -2% 0;
+  line-height: 1.2em;
+  margin: 2% 0 -2% 0;
 }
 
 h3 {
@@ -60,6 +61,7 @@ h3 {
   font-family: 'lft_etica_bkbook';
   font-size: 1em;
   margin-bottom: 5.5%;
+  margin-top: 3%;
 }
 
 .section__col__mobile_img {
