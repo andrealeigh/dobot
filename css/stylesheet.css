@@ -53,13 +53,14 @@ h1 {
   color: #FFFFFF;
   font-family: 'quatro_slabregular';
   font-size: 2.25em;
-  margin: 0 0 1% 0;
+  margin: 2.5% 0 -2% 0;
 }
 
 small {
   color: #555A5B;
   font-family: 'lft_etica_bkbook';
   font-size: 1em;
+  margin-bottom: 5.5%;
 }
 
 .section__col__mobile_img {
@@ -70,7 +71,15 @@ p {
   color: #ACADAD;
   font-family: 'lft_eticaregular';
   font-size: 1em;
-  line-height: 1.5;
+  line-height: 1.5em;
+}
+
+p:first-of-type {
+  margin-bottom: -1.5%;
+}
+
+p:nth-of-type(2) {
+  margin-bottom: 7%;
 }
 
 a {
@@ -78,7 +87,7 @@ a {
   float: left;
   font-family: 'lft_eticaregular';
   font-size: 1em;
-  padding-bottom: 2.188em;
+  padding-bottom: 8.5%;
   text-decoration: none;
 }
 
@@ -87,6 +96,7 @@ hr {
   clear: both;
 }
 
+
 p:last-of-type {
   clear: both;
   color: #FFFFFF;
@@ -94,7 +104,7 @@ p:last-of-type {
   font-family: 'quatro_slabregular';
   font-size: 1.5em;
   margin-right: 1em;
-  margin-top: 1.5em;
+  margin-top: 8.5%;
 }
 
 .section__col__button_buy_this {
@@ -104,7 +114,7 @@ p:last-of-type {
   float: left;
   font-family: 'lft_etica_sbsemibold';
   font-size: .875em;
-  margin-top: 2.188em;
+  margin-top: 7.5%;
   padding: 1em 0;
   text-align: center;
   width: 8.99em;
@@ -116,6 +126,7 @@ p:last-of-type {
 }
 
 .section__col--desktop_image {
+  margin-top: 12%;
   max-width: 640px;
 }
 
