@@ -18,8 +18,7 @@ body {
   border-bottom: 1px solid #323738;
   clear: both;
   margin: 0 6%;
-  max-width: 1100px;
-  padding: 0;
+  max-width: 1260px;
 }
 
 .section:last-of-type {
@@ -38,13 +37,13 @@ body {
   float: left;
   margin: 10% 0;
   max-width: 940px;
-  width: 53%;
+  width: 58%;
 }
 
 .section__col:first-child {
   margin-left: 0;
-  padding-right: 9%;
-  width: 38%;
+  padding-right: 8.5%;
+  width: 33.5%;
 }
 
 /* LEFT COLUMN STYLING */
