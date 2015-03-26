@@ -9,7 +9,10 @@ body {
 }
 
 .dobot-icon {
+  background: url(../images/dobot.jpg);
+  height: 80px;
   margin-left: 6%;
+  text-indent: -9999px;
   width: 80px;
 }
 
