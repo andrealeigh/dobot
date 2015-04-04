@@ -34,20 +34,7 @@ body {
   display: table;
 }
 
-/* COLUMN SETUP WITHIN SECTIONS  */
-.section__col {
-  display: block;
-  float: left;
-  margin: 10% 0;
-  max-width: 940px;
-  width: 58%;
-}
-
-.section__col:first-child {
-  margin-left: 0;
-  padding-right: 8.5%;
-  width: 33.5%;
-}
+/* SECTION STYLING */
 
 /* LEFT COLUMN STYLING */
 h2 {
@@ -123,10 +110,6 @@ p:last-of-type {
   background-repeat: repeat;
 }
 
-.section__col--desktop_image {
-  margin-top: 9.5%;
-  max-width: 640px;
-}
 
 /* TABLET AND MOBILE STYLING */
 @media only screen and (max-width: 780px) {
