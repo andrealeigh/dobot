@@ -36,7 +36,6 @@ body {
 
 /* SECTION STYLING */
 
-/* LEFT COLUMN STYLING */
 h2 {
   color: #FFFFFF;
   font-family: 'quatro_slabregular';
@@ -53,8 +52,12 @@ h3 {
   margin-top: 3%;
 }
 
-.section__col__mobile_img {
-  display: none;
+.section__col__img {
+  float: right;
+  max-width: 640px;
+  margin-top: -16%;
+  padding-left: 8.5%;
+  width: 100%;
 }
 
 p {
