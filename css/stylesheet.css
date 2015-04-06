@@ -5,7 +5,8 @@ html {
 
 body {
   display: table;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .dobot-icon {
