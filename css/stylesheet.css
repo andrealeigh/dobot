@@ -88,7 +88,7 @@ p:last-of-type {
   font-family: 'quatro_slabregular';
   font-size: 1.5em;
   margin-right: 1em;
-  margin-top: 8.5%;
+  margin-top: 48px;
 }
 
 .section__col__button_buy_this {
@@ -98,7 +98,7 @@ p:last-of-type {
   float: left;
   font-family: 'lft_etica_sbsemibold';
   font-size: .875em;
-  margin-top: 7.5%;
+  margin-top: 37px;
   padding: 1em 0;
   text-align: center;
   width: 8.99em;
