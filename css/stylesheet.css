@@ -82,7 +82,7 @@ a {
 }
 
 p:last-of-type {
-  clear: both;
+  clear: left;
   color: #FFFFFF;
   float: left;
   font-family: 'quatro_slabregular';
