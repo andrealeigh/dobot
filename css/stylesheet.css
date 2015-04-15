@@ -61,6 +61,10 @@ h3 {
   width: 58%;
 }
 
+.section__col__img--buy-film{
+  margin-top: -105px;
+}
+
 p {
   color: #ACADAD;
   font-family: 'lft_eticaregular';
