@@ -34,6 +34,11 @@ body {
   display: table;
 }
 
+.section__col {
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+
 /* SECTION STYLING */
 
 h2 {
@@ -92,6 +97,7 @@ p:last-of-type {
   float: left;
   font-family: 'quatro_slabregular';
   font-size: 1.5em;
+  margin-bottom: 107px;
   margin-right: 1em;
   margin-top: 48px;
 }
@@ -103,6 +109,7 @@ p:last-of-type {
   float: left;
   font-family: 'lft_etica_sbsemibold';
   font-size: .875em;
+  margin-bottom: 107px;
   margin-top: 37px;
   padding: 1em 0;
   text-align: center;
