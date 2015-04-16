@@ -131,31 +131,25 @@ p:last-of-type {
     width: 100%;
   }
 
-  .section__col--desktop_image {
-    display: none;
+  h2 {
+    max-width: none;
   }
 
-  .section__col__mobile_img {
-    display: block;
-    padding-top: 1em;
+  .section__col__img {
+    float: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
     width: 100%;
   }
 
-  p:first-of-type {
-    margin-bottom: 0;
-  }
-
-  p:nth-of-type(2) {
-    margin-bottom: 1em;
+  .section__col__img--buy-film{
+    margin-top: 0;
   }
 
   a {
     border-bottom: none;
     padding-bottom: 0;
-  }
-
-  hr {
-    display: none;
   }
 
 }
