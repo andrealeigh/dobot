@@ -20,7 +20,8 @@ body {
 .section {
   border-bottom: 1px solid #323738;
   clear: both;
-  margin: 7% 6.5%;
+  margin-left: 6.5%;
+  margin-right: 6.5%;
   max-width: 1260px;
 }
 
