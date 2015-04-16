@@ -127,7 +127,8 @@ p:last-of-type {
 @media only screen and (max-width: 780px) {
 
   .section__col, .section__col:first-child {
-    margin: 5% 0;
+    margin-bottom: 5%;
+    margin-top: 5%;
     padding-right: 0;
     width: 100%;
   }
