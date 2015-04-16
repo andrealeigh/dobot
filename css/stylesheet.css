@@ -60,9 +60,9 @@ h3 {
 
 .section__col__img {
   float: right;
-  max-width: 640px;
   margin-bottom: 107px;
   margin-top: -148px;
+  max-width: 640px;
   padding-left: 8.5%;
   width: 58%;
 }
@@ -145,7 +145,7 @@ p:last-of-type {
     width: 100%;
   }
 
-  .section__col__img--buy-film{
+  .section__col__img--buy-film {
     margin-top: 0;
   }
 
