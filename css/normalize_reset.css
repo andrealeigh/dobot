@@ -88,6 +88,7 @@ template {
 
 a {
   background-color: transparent;
+  border-bottom: none;
   text-decoration: none;
 }
 
